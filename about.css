@@ -1,0 +1,74 @@
+#page-header.about-header{
+    background: url(images/about/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-team {
+    text-align: center;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allows members to stack on small screens */
+    gap: 40px; /* Space between team member cards */
+    margin-top: 40px;
+}
+.team-member {
+    width: 310px; /* Gives each member card a fixed width */
+    text-align: center;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Prevents image from stretching */
+    margin-bottom: 15px;
+}
+.team-member h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5px;
+}
+.team-member p {
+    font-size: 16px;
+    color: #465b52;
+    line-height: 1.5;
+}
+
+/* === 3. Why Shop With Us (Your Icon Section) === */
+#feature {
+    text-align: center;
+}
+.fe-box-container {
+    display: flex;
+    justify-content: center; /* Centers the boxes */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust spacing as needed */
+    margin-top: 40px;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head div{
+    padding-left: 40px;
+}
