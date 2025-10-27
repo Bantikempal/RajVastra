@@ -95,6 +95,10 @@ button.normal:hover {
   background-color: #088178;
   color: #fff;
 }
+button a{
+   text-decoration: none;
+   color: #088178;
+}
 body {
   width: 100%;
 }
